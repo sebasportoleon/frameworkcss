@@ -1,0 +1,75 @@
+
+.backgroundmain{
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.encabezado{
+    background-color:lightsteelblue;
+    opacity: 0.8;
+}
+
+.titulo{
+  color: yellow;
+}
+
+h1{
+  color:slategrey;
+}
+
+.out {
+  background-color: transparent;
+  color: darkslategrey;
+  border-style: solid;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-color: white;
+  border-width: 2px;
+}
+
+.stylehr{
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}
+
+.content{
+    border-style: double;
+    height: 900px;
+}
+
+.imagen1{
+    max-width: 600px;
+    width: 100%;
+    height: 800px;
+}
+.boton_menu{
+    background-color: lightblue;
+    border-color: Highlight;
+    border-style: solid;
+    border-width: thin;
+}
+
+.subtitulo{
+    padding-left: 20px;
+    color:Highlight;
+}
+
+.imagen_central{
+    width: 50%;
+    height: 100%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-person {
+    display: block;
+    width: 40px;
+    height: auto;
+}

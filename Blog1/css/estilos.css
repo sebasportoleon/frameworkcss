@@ -1,0 +1,143 @@
+.blog-body {
+  background-color: brown;
+  background-position:  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.cl_header{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.cl_nav {
+  background-color:beige;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.cl_shift{
+    height: 20px;
+}
+
+.cl_blog {
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding-top: 10px;
+}
+
+.hlogo {
+  height: 100%;
+  position:center;
+}
+
+.img_logo{
+    height: 100px;
+    position:center;
+    border-color: black;
+    border-style:groove;
+}
+
+.hsocial{
+  background-color: white;
+  min-height: 0px;
+  height:100px;
+}
+
+.redes-sociales{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.btn-social{
+    width: 50px;
+    height: 50px;
+    border-style:solid;
+}
+
+.img-social{
+    padding:0px 0px 0px 0px;
+    position:absolute;
+    margin: 0px 0px 0px 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 20px;
+}
+
+.menu_option{
+    width: 16%;
+}
+
+.letra_menu{
+    color: black;
+    font-weight: 700;
+}
+
+
+.btn_grande{
+    height: 70px;
+    width: 70px;
+}
+
+.picture{
+    padding-bottom: 5px;
+}
+
+.img_user{
+    width: 60%;
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.icono{
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+    /* Clase para ocultar componentes HTML */
+    .options {
+        display: none;
+    }
+
+    .redes-sociales{
+        width: 100%;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu_option{
+        width: 100%;
+    }
+
+    .mi_nav{
+        height: 240px;
+    }
+
+    .btn_grande{
+        height: 40px;
+        width: 40px;
+    }
+
+    .img_user{
+        height: 40px;
+        width: 40px;
+    }
+}
