@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+body{
+	background: url(../img/tikal.jpg) no-repeat center center fixed, rgba(144,121,121,0.60);
+}
+
+
+.cabecera{
+	height: 9em;
+	position: fixed;
+}
+
+.cabecera1{
+	height: 9em;
+}
+
+
+.logo{
+	margin-top: 2em;
+	margin-left: 5vw;
+	border-radius: 15px;
+}
+
+
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+
+
+.slogan{
+	margin-top: 0em;
+	margin-left: 1em;
+	font-style: italic;
+}
+
+
+/*Estilo para el fondo*/
+.content{
+	height: 100%;
+	background: rgba(144,121,121,0.60);
+}
+
+/*Estilo para redes sociales*/
+.vertical{
+	margin-top: 2em;
+}
+
+/*Estilo de margen para el contenido*/
+.margen{
+	margin-top: 4em;
+}
+
+/*Estilo para imágenes de post*/
+.imgpost{
+	width: 100%;
+}
+
+/*Estilos para la visualización en móviles y orientación portrait*/
+@media (max-width:600px){
+	.btns{
+	  	display: inline-block;
+	  	height: 24px;
+	  	line-height: 24px;
+	  	padding: 0 0.05rem!important;
+	}
+
+	i.left{
+		margin: 0 2px;
+	}
+
+	.ulti{
+		float: right;
+	}
+
+	.logo{
+		width: 90px;
+		margin-left: 1vw;
+	}
+
+	.minimarg{
+		margin-top: 1em;
+	}
+
+	.margin{
+		margin-left: 2em!important;
+	}
+
+	.slogan{
+		margin-top: 2.3em;
+	}
+}
+
+/*Estilos para landscape en móviles y portrait en tablets*/
+@media (min-width:601px) and (max-width:1050px){
+	.btns{
+	  	display: inline-block;
+	  	height: 30px;
+	  	line-height: 30px;
+	  	padding: 0 0.5rem!important;
+	}
+
+	.logo{
+		width: 110px;
+		margin-left: 1vw;
+	}
+
+	.btn-large{
+		margin-left: -1.5em;
+		height: 40px!important;
+		width: 40px!important;
+	}
+
+	.fa{
+		margin-top: -0.6em;
+	}
+
+	.imgpost{
+		margin-top: 1.5em;
+	}
+}
